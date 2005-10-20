@@ -8,7 +8,7 @@ Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/kbproto-%{version}.tar.bz2
 # Source0-md5:	3506c6d4698afc5ecc9927cd06ab4329
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-util-util-macros
