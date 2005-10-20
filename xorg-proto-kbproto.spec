@@ -1,12 +1,12 @@
 Summary:	KB protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u KB i pomocnicze
 Name:		xorg-proto-kbproto
-Version:	1.0
-Release:	0.02
+Version:	1.0.1
+Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/kbproto-%{version}.tar.bz2
-# Source0-md5:	45af2e6c1fd9a5d858cdfc827b0d504e
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/kbproto-%{version}.tar.bz2
+# Source0-md5:	3506c6d4698afc5ecc9927cd06ab4329
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
