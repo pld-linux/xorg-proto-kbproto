@@ -5,8 +5,8 @@ Version:	1.0.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/kbproto-%{version}.tar.bz2
-# Source0-md5:	a7ad6233c3926af7c288c00370a7e2b9
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/kbproto-X11R7.0-%{version}.tar.bz2
+# Source0-md5:	403f56d717b3fefe465ddd03d9c7bc81
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -32,7 +32,7 @@ KB protocol and ancillary headers
 Nag³ówki protoko³u KB i pomocnicze.
 
 %prep
-%setup -q -n kbproto-%{version}
+%setup -q -n kbproto-X11R7.0-%{version}
 
 %build
 %{__aclocal}
