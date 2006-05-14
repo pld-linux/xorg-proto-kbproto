@@ -32,7 +32,7 @@ KB protocol and ancillary headers
 Nag³ówki protoko³u KB i pomocnicze.
 
 %prep
-%setup -q -n kbproto-X11R7.0-%{version}
+%setup -q -n kbproto-%{version}
 
 %build
 %{__aclocal}
