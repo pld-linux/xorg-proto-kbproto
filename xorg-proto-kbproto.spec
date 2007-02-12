@@ -1,5 +1,5 @@
 Summary:	KB protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu KB i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu KB i pomocnicze
 Name:		xorg-proto-kbproto
 Version:	1.0.3
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu KB i pomocnicze.
 
 %package devel
 Summary:	KB protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu KB i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu KB i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
