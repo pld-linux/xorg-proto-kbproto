@@ -1,12 +1,12 @@
 Summary:	KB extension headers
 Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia KB
 Name:		xorg-proto-kbproto
-Version:	1.0.6
-Release:	2
+Version:	1.0.7
+Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/kbproto-%{version}.tar.bz2
-# Source0-md5:	677ea8523eec6caca86121ad2dca0b71
+# Source0-md5:	94afc90c1f7bef4a27fdd59ece39c878
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	pkgconfigdir=%{_pkgconfigdir}
+
+# packaged as %doc
+%{__rm} -r $RPM_BUILD_ROOT%{_docdir}/kbproto
 
 %clean
 rm -rf $RPM_BUILD_ROOT
